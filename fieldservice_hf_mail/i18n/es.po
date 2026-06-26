@@ -1,0 +1,260 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* field_service_mail
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-25 15:48+0000\n"
+"PO-Revision-Date: 2026-06-25 15:48+0000\n"
+"Language: es_ES"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: field_service_mail
+#: model:ir.actions.report,print_report_name:field_service_mail.service_order_record_temp
+msgid "'Orden de Servicio'"
+msgstr "'Orden de Servicio'"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "<span style=\"color:#aaa;\">Fecha de Finalización: Pendiente</span>"
+msgstr "<span style=\"color:#aaa;\">Fecha de Finalización: Pendiente</span>"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "<span>Fecha de Finalización: </span>"
+msgstr "<span>Fecha de Finalización: </span>"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "<span>Fecha de Inicio: </span>"
+msgstr "<span>Fecha de Inicio: </span>"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "<span>HFNET URUGUAY</span>"
+msgstr "<span>HFNET URUGUAY</span>"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__attachment_ids
+msgid "Attachment"
+msgstr "Adjuntar"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "CC"
+msgstr "CC"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Cliente"
+msgstr "Cliente"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "Content"
+msgstr "Contenido"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__create_uid
+msgid "Created by"
+msgstr "Creado Por"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_fsm_order__dni
+#: model:ir.model.fields,field_description:field_service_mail.field_fsm_order_sign_wizard__dni
+msgid "Dni"
+msgstr "Numero de Documento"
+
+#. module: field_service_mail
+#: model:ir.model,name:field_service_mail.model_fsm_order_sign_wizard
+msgid "FSM Order Sign Wizard"
+msgstr "FSM Order Sign Wizard"
+
+#. module: field_service_mail
+#: model:ir.model,name:field_service_mail.model_fsm_order
+msgid "Field Service Order"
+msgstr "Orden de Servicio"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Firma"
+msgstr "Firma"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "From"
+msgstr "De"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Funcionarios asignados"
+msgstr "Funcionarios asignados"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__id
+msgid "ID"
+msgstr "Numero de Documento"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.fsm_sign_wizard_inherit
+msgid "ID Number"
+msgstr "Numero de Documento"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Información del Cliente"
+msgstr "Información del Cliente"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__write_date
+msgid "Last Updated on"
+msgstr "Actualizado el"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.fsm_order_form_inherit_mail
+msgid "Mail"
+msgstr "Mail"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__mail_cc
+msgid "Mail Cc"
+msgstr "CC"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__mail_content
+msgid "Mail Content"
+msgstr "Contenido del mail"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__mail_from
+msgid "Mail From"
+msgstr "Mail de"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__mail_subject
+msgid "Mail Subject"
+msgstr "Asunto del mail"
+
+#. module: field_service_mail
+#: model:ir.model.fields,field_description:field_service_mail.field_mail_wizard__mail_to
+msgid "Mail To"
+msgstr "Para"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Número de Documento"
+msgstr "Número de Documento"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Orden de Servicio"
+msgstr "Orden de Servicio"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "Resolución"
+msgstr "Resolución"
+
+#. module: field_service_mail
+#: model:ir.model,name:field_service_mail.model_mail_wizard
+msgid "Script in charge of filling out default values for the email"
+msgstr "Script a cargo de llenar valores por defecto para el mail"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "Send"
+msgstr "Enviar"
+
+#. module: field_service_mail
+#: model:ir.actions.act_window,name:field_service_mail.mail_wizard_action
+msgid "Send Mail"
+msgstr "Enviar Mail"
+
+#. module: field_service_mail
+#: model:ir.actions.report,name:field_service_mail.service_order_record_temp
+msgid "Service Order"
+msgstr "Orden de Servicio"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: field_service_mail
+#. odoo-python
+#: code:addons/field_service_mail/wizard/mail_wizard.py:0
+msgid "Success"
+msgstr "Exito"
+
+#. module: field_service_mail
+#. odoo-python
+#: code:addons/field_service_mail/wizard/mail_wizard.py:0
+msgid "The mail has been successfully sent"
+msgstr "El correo ha sido enviado correctamente"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "To"
+msgstr "Para"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.fsm_sign_wizard_inherit
+msgid "X-XXX-XXX-X"
+msgstr "X-XXX-XXX-X"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.mail_wizard
+msgid "address@example.com"
+msgstr "direccion@ejemplo.com"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "field_service_mail.service_order_template"
+msgstr "field_service_mail.service_order_template"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "qweb"
+msgstr "qweb"
+
+#. module: field_service_mail
+#: model_terms:ir.ui.view,arch_db:field_service_mail.service_order_template
+msgid "service_order_template"
+msgstr "service_order_template"
