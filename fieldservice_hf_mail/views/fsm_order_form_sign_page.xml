@@ -1,0 +1,20 @@
+<odoo>
+    <record id="fsm_order_form_signature_page" model="ir.ui.view">
+        <field name="name">fsm_order_form_signature_page</field>
+        <field name="model">fsm.order</field>
+        <field name="inherit_id" ref="fieldservice.fsm_order_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Customer Signature" name="customer_signature">
+                    <group>
+                        <group string="Customer Signature">
+                            <field name="signed_by"></field>
+                            <field name="dni"></field>
+                            <field name="signature" widget="image"></field>
+                        </group>
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
