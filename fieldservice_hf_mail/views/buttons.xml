@@ -1,0 +1,21 @@
+<odoo>
+    <record id="fsm_order_form_inherit_mail" model="ir.ui.view">
+        <field name="name">fsm.order.form.inherit.mail</field>
+        <field name="model">fsm.order</field>
+        <field name="inherit_id" ref="fieldservice.fsm_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="%(mail_wizard_action)d"
+                        string="Mail"
+                        type="action"
+                        class="oe_highlight"/>
+            </xpath>
+            <xpath expr="//header" position="inside">
+                <button name="%(fsm_view_action_sign)d"
+                        string="Sign"
+                        type="action"
+                        class="oe_highlight"/> <!-- fsm_view_action_sign is in fsm_order_sign_wizard.xml -->
+            </xpath>
+        </field>
+    </record>
+</odoo>

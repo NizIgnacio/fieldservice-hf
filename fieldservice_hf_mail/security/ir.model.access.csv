@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mail_wizard_user,mail.wizard.access,model_mail_wizard,base.group_user,1,1,1,0
+access_mail_wizard_admin,mail.wizard.access,model_mail_wizard,base.group_system,1,1,1,1
+access_mail_wizard_public,mail.wizard.access,model_mail_wizard,base.group_public,0,0,0,0
+access_fsm_order_sign_wizard_user,fsm.order.sign.wizard.access,model_fsm_order_sign_wizard,base.group_user,1,1,1,0
+access_fsm_order_sign_wizard_admin,fsm.order.sign.wizard.access,model_fsm_order_sign_wizard,base.group_system,1,1,1,1
+access_fsm_order_sign_wizard_public,fsm.order.sign.wizard.access,model_fsm_order_sign_wizard,base.group_public,0,0,0,0

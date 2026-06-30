@@ -1,0 +1,28 @@
+<odoo>
+    <record id="mail_wizard" model="ir.ui.view">
+        <field name="model">mail.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="mail_from" string="From" widget="email"></field>
+                    <field name="mail_to" string="To" widget="email"></field>
+                    <field name="mail_subject" string="Subject"></field>
+                    <field name="mail_content" string="Content" widget="html" options="{'style-inline': true}"/>
+                    <field name="mail_cc" string="CC" placeholder="address@example.com"></field>
+                    <field name="attachment_ids" string="Attachments" widget="many2many_binary"></field>
+                </group>
+                <footer>
+                    <button string="Send" type="object" name="BuildAndSend" class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="mail_wizard_action" model="ir.actions.act_window">
+        <field name="name">Send Mail</field>
+        <field name="res_model">mail.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
