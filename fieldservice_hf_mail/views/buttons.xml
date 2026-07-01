@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
                 <button name="%(mail_wizard_action)d"
-                        string="Mail"
+                        string="Correo"
                         type="action"
                         class="oe_highlight"
                         attrs="{'invisible': [('stage_id', 'not in', (%(fieldservice.fsm_stage_completed)d,))]}"/>/>
