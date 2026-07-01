@@ -9,14 +9,14 @@
                         string="Mail"
                         type="action"
                         class="oe_highlight"
-                        attrs="{'invisible': [('stage_id', 'not in', (%(fieldservice.fsm_stage_completed)d,))]}"/>/>
+                        attrs="{'invisible': [('stage_id', 'not in', (%(fieldservice.fsm_stage_completed)d,))]}"/>
             </xpath>
             <xpath expr="//header" position="inside">
                 <button name="%(fsm_view_action_sign)d"
                         string="Sign"
                         type="action"
                         class="oe_highlight"
-                        attrs="{'invisible': [('stage_id', 'not in', (%(fieldservice.fsm_stage_completed)d,))]}"/>/> <!-- fsm_view_action_sign is in fsm_order_sign_wizard.xml -->
+                        attrs="{'invisible': [('stage_id', 'not in', (%(fieldservice.fsm_stage_completed)d,))]}"/> <!-- fsm_view_action_sign is in fsm_order_sign_wizard.xml -->
             </xpath>
         </field>
     </record>
